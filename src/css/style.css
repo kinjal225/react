@@ -1,0 +1,274 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li
+{
+    list-style: none;
+}
+ul li a 
+{
+    text-decoration: none;
+}
+
+
+
+
+
+/* =======================================
+
+HEADER START
+
+======================================= */
+
+.header_section
+{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    padding: 10px 30px;
+}
+.header_svg > a
+{
+    color: black;
+    font-size: 22px;
+}
+.header_content ul
+{
+    display: flex;
+}
+.header_content ul li a
+{
+    padding: 20px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+}
+.header_content ul li:first-of-type
+{
+    padding-top: 5px;
+}
+.header_content ul li:nth-child(2)
+{
+    padding-top: 5px;
+}
+.header_content ul li a button
+{
+    color: black;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+
+/* =======================================
+
+HEADER END
+
+======================================= */
+
+
+
+
+
+/* =======================================
+
+RICK AND MORTY SECTION START
+
+======================================= */
+
+
+
+.rick_section
+{
+    margin-top: 50px;
+}
+.rick_section h1
+{
+    font-size: 100px;
+    font-weight: 900;
+    color: rgb(32, 35, 41);
+    letter-spacing: 3px;
+}
+
+
+
+/* =======================================
+
+RICK AND MORTY SECTION END
+
+======================================= */
+
+
+
+
+
+/* =======================================
+
+SHOWCASE SECTION START
+
+======================================= */
+
+
+.showcase_section
+{
+    margin-top: 80px;
+    background-color: #202329;
+    padding-bottom: 120px;
+}
+.showcase_box1
+{
+    display: flex;
+    /* border: 1px solid yellow; */
+    height: 230px;
+    background-color: #3C3E44;
+    border-radius: 10px;
+}
+.box_content
+{
+    padding-left: 20px;
+}
+.box_content a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.box_image img
+{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.kyle a
+{
+    font-size: 30px;
+    font-weight: 700;
+}
+.kyle p 
+{
+    font-weight: 600;
+    color: #fff;
+}
+.location p
+{
+    margin-bottom: 0px;
+    color: rgb(158, 158, 158);
+}
+.location a
+{
+    font-size: 20px;
+}
+.first p
+{
+    margin-top: 10px;
+}
+.box_content a:hover
+{
+    color: #FF9800;
+}
+
+
+
+
+
+
+/* =======================================
+
+SHOWCASE SECTION END
+
+======================================= */
+
+
+
+/* =======================================
+
+FOOTER SECTION START
+
+======================================= */
+
+
+
+.footer_section
+{
+    margin: 0;
+    padding: 0;
+    background-color: #202329;
+    color: #3C3E44;
+    text-align: center;
+    
+}
+.footer_content ul
+{
+    display: flex;
+    justify-content: center;
+}
+.footer_content a
+{
+    margin-right: 20px;
+    font-weight: 600;
+    color: #3C3E44;
+}
+.footer_content a:hover
+{
+    color: #FF9800;
+}
+.server p
+{
+    color: #FF9800;
+    cursor: pointer;
+    font-weight: 600;
+}
+.server_image
+{
+    margin-top: 30px;
+}
+.server_image img
+{
+    margin: 0px 10px;
+    color: #3C3E44;
+    width: 2%;
+}
+.server_image img:hover
+{
+    color: #FF9800;
+}
+.netlify
+{
+    margin-top: 30px;
+}
+.axel
+{
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================================
+
+FOOTER SECTION END
+
+======================================= */
+
+
+
+
